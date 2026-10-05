@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810" role="img" aria-labelledby="title desc">
+  <title id="title">Business Operations ERP product overview</title>
+  <desc id="desc">Synthetic portfolio visual showing a modular ERP workflow and product capabilities.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10151c"/><stop offset="1" stop-color="#1d252e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9b785"/><stop offset="1" stop-color="#8fb9ad"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-opacity=".22"/></filter>
+    <style>
+      .eyebrow{font:600 15px Arial,sans-serif;letter-spacing:3px;fill:#aab6bd}.h1{font:700 48px Georgia,serif;fill:#f6f2ea}.lead{font:400 20px Arial,sans-serif;fill:#c5cdd1}.card{fill:#f5f3ee}.title{font:700 22px Georgia,serif;fill:#1e252b}.body{font:400 15px Arial,sans-serif;fill:#5a646a}.tag{font:700 12px Arial,sans-serif;letter-spacing:1px;fill:#6c5336}.flow{font:700 16px Arial,sans-serif;fill:#f7f3eb}.small{font:400 13px Arial,sans-serif;fill:#aab6bd}
+    </style>
+  </defs>
+  <rect width="1440" height="810" fill="url(#bg)"/>
+  <rect x="70" y="62" width="1300" height="686" rx="32" fill="#151c23" stroke="#33404a"/>
+  <text x="120" y="126" class="eyebrow">FULL-STACK PRODUCT ENGINEERING</text>
+  <text x="120" y="190" class="h1">Business Operations ERP</text>
+  <text x="120" y="229" class="lead">From business process discovery to a production-ready operational platform.</text>
+  <rect x="120" y="268" width="1200" height="72" rx="18" fill="#222c34"/>
+  <path d="M235 304H395M515 304H675M795 304H955M1075 304H1235" stroke="#687983" stroke-width="2"/>
+  <circle cx="205" cy="304" r="22" fill="#9b7750"/><circle cx="485" cy="304" r="22" fill="#9b7750"/><circle cx="765" cy="304" r="22" fill="#8b8170"/><circle cx="1045" cy="304" r="22" fill="#648b82"/><circle cx="1265" cy="304" r="22" fill="#648b82"/>
+  <text x="205" y="310" class="flow" text-anchor="middle">1</text><text x="485" y="310" class="flow" text-anchor="middle">2</text><text x="765" y="310" class="flow" text-anchor="middle">3</text><text x="1045" y="310" class="flow" text-anchor="middle">4</text><text x="1265" y="310" class="flow" text-anchor="middle">5</text>
+  <text x="205" y="331" class="small" text-anchor="middle">Order</text><text x="485" y="331" class="small" text-anchor="middle">Validate</text><text x="765" y="331" class="small" text-anchor="middle">Prepare</text><text x="1045" y="331" class="small" text-anchor="middle">Ship</text><text x="1265" y="331" class="small" text-anchor="middle">Analyze</text>
+  <g filter="url(#shadow)">
+    <rect x="120" y="386" width="270" height="225" rx="22" class="card"/>
+    <rect x="420" y="386" width="270" height="225" rx="22" class="card"/>
+    <rect x="720" y="386" width="270" height="225" rx="22" class="card"/>
+    <rect x="1020" y="386" width="300" height="225" rx="22" class="card"/>
+  </g>
+  <rect x="145" y="411" width="72" height="5" rx="2.5" fill="#a67d50"/><text x="145" y="454" class="title">Commercial Core</text><text x="145" y="490" class="body">Customer master data</text><text x="145" y="520" class="body">Product and order lifecycle</text><text x="145" y="550" class="body">Multiple fulfillment channels</text><text x="145" y="584" class="tag">DOMAIN MODELING</text>
+  <rect x="445" y="411" width="72" height="5" rx="2.5" fill="#9b7750"/><text x="445" y="454" class="title">Operations</text><text x="445" y="490" class="body">Approvals and exceptions</text><text x="445" y="520" class="body">Preparation planning</text><text x="445" y="550" class="body">Tasks and team hand-offs</text><text x="445" y="584" class="tag">WORKFLOW DESIGN</text>
+  <rect x="745" y="411" width="72" height="5" rx="2.5" fill="#788c88"/><text x="745" y="454" class="title">Warehouse</text><text x="745" y="490" class="body">Grouped preparation</text><text x="745" y="520" class="body">Partial fulfillment</text><text x="745" y="550" class="body">Shipment traceability</text><text x="745" y="584" class="tag">STATE INTEGRITY</text>
+  <rect x="1045" y="411" width="72" height="5" rx="2.5" fill="#648b82"/><text x="1045" y="454" class="title">Management</text><text x="1045" y="490" class="body">Operational dashboards</text><text x="1045" y="520" class="body">Filtered reports and exports</text><text x="1045" y="550" class="body">Audit and access control</text><text x="1045" y="584" class="tag">DECISION SUPPORT</text>
+  <rect x="120" y="651" width="1200" height="50" rx="14" fill="#202a32"/>
+  <rect x="120" y="651" width="1200" height="4" rx="2" fill="url(#accent)"/>
+  <text x="145" y="684" class="small">REACT + TYPESCRIPT</text><text x="395" y="684" class="small">FASTAPI</text><text x="555" y="684" class="small">POSTGRESQL</text><text x="755" y="684" class="small">DOCKER</text><text x="905" y="684" class="small">AUTOMATED TESTS</text><text x="1150" y="684" class="small">CONTROLLED RELEASES</text>
+</svg>
+

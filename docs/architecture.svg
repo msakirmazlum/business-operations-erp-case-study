@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">Layered architecture of the business operations ERP case study</title>
+  <desc id="desc">A high-level synthetic architecture showing user roles, frontend, API, domain services, persistence, integrations, and operations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f1ec"/><stop offset="1" stop-color="#e7ece9"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#24333b" flood-opacity=".12"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#73828a"/></marker>
+    <style>.ey{font:700 14px Arial,sans-serif;letter-spacing:3px;fill:#786247}.h{font:700 42px Georgia,serif;fill:#1f292e}.t{font:700 18px Arial,sans-serif;fill:#253038}.b{font:400 14px Arial,sans-serif;fill:#5f6c72}.w{font:700 17px Arial,sans-serif;fill:#fff}.ws{font:400 13px Arial,sans-serif;fill:#dce6e4}.chip{font:700 12px Arial,sans-serif;fill:#6c563b;letter-spacing:1px}</style>
+  </defs>
+  <rect width="1440" height="760" fill="url(#bg)"/>
+  <text x="80" y="76" class="ey">PRIVACY-SAFE ARCHITECTURE VIEW</text><text x="80" y="128" class="h">A modular system with guarded workflow boundaries</text>
+  <g filter="url(#s)">
+    <rect x="80" y="176" width="1280" height="82" rx="20" fill="#27343b"/>
+    <rect x="80" y="302" width="1280" height="110" rx="20" fill="#fff"/>
+    <rect x="80" y="456" width="820" height="220" rx="20" fill="#fff"/>
+    <rect x="940" y="456" width="420" height="220" rx="20" fill="#27343b"/>
+  </g>
+  <text x="110" y="209" class="w">Role-based workspaces</text><text x="110" y="235" class="ws">Sales · Operations · Warehouse · Management</text>
+  <rect x="685" y="196" width="140" height="38" rx="19" fill="#3f5058"/><text x="755" y="220" class="ws" text-anchor="middle">Responsive UI</text><rect x="845" y="196" width="140" height="38" rx="19" fill="#3f5058"/><text x="915" y="220" class="ws" text-anchor="middle">Typed client</text><rect x="1005" y="196" width="150" height="38" rx="19" fill="#3f5058"/><text x="1080" y="220" class="ws" text-anchor="middle">Access control</text><rect x="1175" y="196" width="150" height="38" rx="19" fill="#3f5058"/><text x="1250" y="220" class="ws" text-anchor="middle">User feedback</text>
+  <line x1="720" y1="258" x2="720" y2="294" stroke="#73828a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="110" y="337" class="t">API and application layer</text><text x="110" y="367" class="b">Validation · authorization · orchestration · stable contracts</text>
+  <rect x="620" y="326" width="145" height="44" rx="12" fill="#eee8dd"/><text x="692" y="353" class="chip" text-anchor="middle">FASTAPI</text><rect x="785" y="326" width="165" height="44" rx="12" fill="#eee8dd"/><text x="867" y="353" class="chip" text-anchor="middle">PYDANTIC</text><rect x="970" y="326" width="165" height="44" rx="12" fill="#e1ebe7"/><text x="1052" y="353" class="chip" text-anchor="middle">AUDIT EVENTS</text><rect x="1155" y="326" width="170" height="44" rx="12" fill="#e1ebe7"/><text x="1240" y="353" class="chip" text-anchor="middle">NOTIFICATIONS</text>
+  <line x1="720" y1="412" x2="720" y2="448" stroke="#73828a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="110" y="493" class="t">Domain services</text><text x="110" y="523" class="b">Explicit states and transactional business rules</text>
+  <rect x="110" y="554" width="170" height="82" rx="14" fill="#f1ede5"/><text x="195" y="585" class="t" text-anchor="middle">Commercial</text><text x="195" y="611" class="b" text-anchor="middle">customers · orders</text>
+  <rect x="300" y="554" width="170" height="82" rx="14" fill="#f1ede5"/><text x="385" y="585" class="t" text-anchor="middle">Operations</text><text x="385" y="611" class="b" text-anchor="middle">plans · exceptions</text>
+  <rect x="490" y="554" width="170" height="82" rx="14" fill="#e5ece9"/><text x="575" y="585" class="t" text-anchor="middle">Logistics</text><text x="575" y="611" class="b" text-anchor="middle">prepare · ship</text>
+  <rect x="680" y="554" width="190" height="82" rx="14" fill="#e5ece9"/><text x="775" y="585" class="t" text-anchor="middle">Management</text><text x="775" y="611" class="b" text-anchor="middle">reports · decisions</text>
+  <text x="975" y="493" class="w">Data and operations</text><text x="975" y="526" class="ws">PostgreSQL persistence</text><text x="975" y="556" class="ws">Versioned migrations</text><text x="975" y="586" class="ws">Controlled external imports</text><text x="975" y="616" class="ws">Container health checks</text><text x="975" y="646" class="ws">Verified backup and recovery</text>
+  <path d="M900 566H930" stroke="#73828a" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>
