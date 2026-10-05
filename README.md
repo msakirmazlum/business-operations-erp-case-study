@@ -58,6 +58,25 @@ Order intake
 
 The workflow supports grouped and partial operations, cancellations, external fulfillment reconciliation, and status histories without exposing those internal rules in this public repository.
 
+## How I engineer delivery
+
+![End-to-end product engineering delivery lifecycle](docs/delivery-lifecycle.svg)
+
+The implementation is only one part of the job. I connect business discovery, domain modeling, full-stack delivery, verification, controlled release, and operational feedback into one engineering loop.
+
+| Business risk | Engineering response |
+|---|---|
+| Ambiguous operational rules | Convert conversations into explicit states, permissions, and acceptance scenarios |
+| Long-running multi-team workflows | Protect transitions on the server and surface role-appropriate actions in the UI |
+| Inconsistent external data | Stage, normalize, validate, reconcile, preview, and then commit imports |
+| Live data correction | Use dry runs, transactions, conservation checks, audit evidence, and verified backups |
+| Release uncertainty | Apply preflight gates, additive migrations, health probes, smoke tests, and rollback inputs |
+
+Deeper engineering notes:
+
+- [Architecture Decision Highlights](docs/architecture-decisions.md) — selected decisions, rationale, and trade-offs.
+- [Quality and Reliability Strategy](docs/quality-and-reliability.md) — risk-based verification, release confidence, and production repair discipline.
+
 ## My contribution
 
 I worked across the complete product lifecycle:
@@ -90,6 +109,8 @@ This case study is intended to demonstrate:
 - API and integration architecture
 - Operational reliability and release discipline
 - Turning ambiguous business needs into a maintainable product
+- Technical decision-making with explicit trade-offs
+- Risk-based testing across domain, data, API, UI, and release layers
 
 For a concise discussion of the approach, see [Engineering Notes](docs/engineering-notes.md).
 
